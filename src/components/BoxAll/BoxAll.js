@@ -550,7 +550,7 @@ const BoxAll = () => {
                                 <div className='contain'>
                                         <div className='b-box'>
                                             <div className='sem-box'>
-                                                <span className='sem'>SEMESTER : 01</span>
+                                                <span className='sem'>SEMESTER : 02</span>
                                             </div>
                                         </div>
                                         <div className='b-box'>
