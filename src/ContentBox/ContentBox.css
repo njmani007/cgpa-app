@@ -1,0 +1,159 @@
+.contain{
+    width: 100%;
+    height: 107vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    padding: 1.3rem 0;
+    background-color: #0A2647;
+}
+.sem-box{
+  width: 90%;
+  background-color: #ADCFFF;
+  display: flex;
+  justify-content: center;
+}
+.t-head{
+  width: 18%;
+  align-items: center;
+}
+.t-head>p{
+  margin-bottom: 0rem;
+}
+.t-span{
+  position: relative;
+  font-size: 17px;
+  font-weight: 800;
+  color: darksalmon;
+  top:28%;
+  text-align: center;
+}
+.t2-span{
+  position: relative;
+  font-size: 17px;
+  font-weight: 800;
+  color: darksalmon;
+  padding: 0;
+  text-align: center;
+}
+.b-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.b-box:nth-child(2)
+{
+  background-color: #144272;
+}
+.sem{
+  font-size: 20px;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+.t-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+span{
+    font-size: 14px;
+    font-weight: 600;
+    color: tomato;
+    width: 20%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.m-box{
+    width:18%;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: right;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 2px solid yellow;
+}
+.m-box:focus,
+.m-box:valid{
+    border-color: 1px solid lightgreen;
+}
+.total{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+
+}
+
+.gpa{
+    font-size: 20px;
+    width: 20%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.t-box{
+    width: 30%;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: right;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 0.3rem;
+    padding-left: 5px;
+    border: 2px solid yellow;
+    transition: all 0.3s ease;
+}
+/* CSS */
+.a-button{
+    text-align: center;
+}
+.button-c {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  width: 40%;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-c:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-c:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-c {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}

@@ -1,0 +1,366 @@
+/*Card.css*/
+body{
+    background-color: lightgreen;
+}
+
+.app{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card{
+    width: 100%;
+    height: 116vh;
+    background: #E3FDFD;
+    color: #fff;
+    font-size: 30px;
+    margin: 0 1px;
+}
+
+.d-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 18%;
+    justify-content: center;
+    align-content: space-around;
+    gap: 10%;
+}
+
+
+
+.p-boxs{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    min-width: 50%;
+    gap: 1rem;
+}
+
+.pr-text{
+    color: black;
+    width: 50%;
+    font-size: 30px;
+    text-align: right;
+    font-weight: bolder;
+}
+
+.pr-box{
+    width: 60%;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid blue;
+    text-align: center;
+    padding-left: 5px;
+}
+
+
+.c-boxs{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    min-width: 40%;
+    gap: 1rem;
+}
+.r-text{
+    color: #FF165D;
+    width: 70%;
+    font-size: 15px;
+    text-align: right;
+    font-weight: bolder;
+}
+.r-box{
+    width: 20%;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid blue;
+    text-align: center;
+    padding-left: 5px;
+}
+.ans{
+    margin: 10px 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+/* square buttons */
+.rec.rec-arrow {
+    border-radius: 0;
+    transform: scale(0.5);
+}
+/* round buttons on hover */
+.rec.rec-arrow:hover {
+    border-radius: 50%;
+}
+/* hide disabled buttons */
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+}
+/* disable default outline on focused items */
+/* add custom outline on focused items */
+.rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 1px 1px lightgreen;
+}
+
+
+
+/*Boxes.css*/
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.a-box {
+    width: 100%;
+    height: 110vh;
+    background-color: #71C9CE;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+.box {
+    width: 90%;
+    height: 109vh;
+    padding: 5px;
+}
+
+
+/*ContentBox.css*/
+
+.contain{
+    width: 100%;
+    height: 107vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    padding: 1.3rem 0;
+    background-color: #71C9CE;
+}
+.sem-box{
+  width: 90%;
+  background-color: #71C9CE;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #F6F7D7;
+  border-radius: 5px;
+}
+.t-head{
+  width: 20%;
+  align-items: center;
+}
+.t-head>p{
+  margin-bottom: 0rem;
+}
+.t-span{
+  position: relative;
+  font-size: 17px;
+  font-weight: 800;
+  color: #FF165D;
+  top:28%;
+  text-align: center;
+}
+.t2-span{
+  position: relative;
+  font-size: 17px;
+  font-weight: 800;
+  color: #FF165D;
+  padding: 0;
+  text-align: center;
+}
+.b-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.b-box:nth-child(2)
+{
+  background-color: #CBF1F5;
+  border-radius: 4px;
+}
+.sem{
+  font-size: 20px;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+.t-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #FF165D;
+    width: 20%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.m-box{
+    width:18%;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: right;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 2px solid #AA96DA;
+}
+.m-box:focus,
+.m-box:valid{
+    border-color: 1px solid lightgreen;
+}
+.total{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+
+}
+
+.gpa{
+    font-size: 20px;
+    width: 20%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.t-box{
+    width: 30%;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: right;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 0.3rem;
+    padding-left: 5px;
+    border: 2px solid #AA96DA;
+    transition: all 0.3s ease;
+}
+/* CSS */
+.a-button{
+    text-align: center;
+}
+.b-button{
+    text-align: center;
+    width: 50%;
+}
+.button-c {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  width: 40%;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-c:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-c:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-c {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+
+
+@media screen and (max-width:480px){
+   
+    .t-span{
+        font-size: 9px;
+    }
+    .t2-span{
+        font-size: 9px;
+    }
+
+    /**/
+    span{
+        font-size: 10px;
+    }
+    .m-box{
+        font-size: 0.5rem;
+    }
+    .button-c{
+        font-size: 0.8rem;
+        padding: 0.5rem 1rem;
+        width: 50%;
+    }
+    .gpa {
+        font-size: 14px;
+        width: 25%;
+    }
+    .t-box{
+        font-size: 0.7rem;
+    }
+    .contain{
+        height: 55vh;
+    }
+    .box{
+        height: 56vh;
+    }
+    .a-box{
+        height: 56vh;
+    }
+    .card{
+        height: 60vh;
+    }
+    .c-boxs{
+        gap: 0.8rem;
+    }
+    .r-text{
+        font-size: 12px;
+    }
+    .r-box{
+        font-size: 12px;
+    }
+    .ans{
+        height: 80vh;
+    }
+
+}
+
+
