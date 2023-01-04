@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cgpa-app/static/css/main.1b56dd03.css",
+    "main.js": "/cgpa-app/static/js/main.a7bc2d73.js",
+    "index.html": "/cgpa-app/index.html",
+    "main.1b56dd03.css.map": "/cgpa-app/static/css/main.1b56dd03.css.map",
+    "main.a7bc2d73.js.map": "/cgpa-app/static/js/main.a7bc2d73.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b56dd03.css",
+    "static/js/main.a7bc2d73.js"
+  ]
+}
