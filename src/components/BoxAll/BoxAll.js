@@ -7,7 +7,7 @@ const BoxAll = () => {
 
     const breakPoints = [
         {width: 500, itemsToShow: 1, itemsToScroll: 1},
-        {width: 768, itemsToShow: 2},
+        {width: 920, itemsToShow: 2},
         {width: 1000, itemsToShow: 2}
     ]
 
@@ -541,7 +541,7 @@ const BoxAll = () => {
                 breakPoints={breakPoints}
                 itemsToScroll={2}>
 
-                  <div>
+                  <div style={{width:'100%'}}>
 
                     <div className='card'>
                         <div className='container'>
@@ -557,10 +557,10 @@ const BoxAll = () => {
                                             <div className='t-head'><p className='t-span'>MARKS</p></div>
                                             <div className='t-head'><p className='t-span'>CREDITS</p></div>
                                             <div className='t-head'><p className='t-span'>GRADE</p></div>
-                                            <div className='t-head'><p className='t2-span'>CREDITS x GRADE</p></div>
+                                            <div className='t-head'><p className='t2-span'>CREDITS * GRADE</p></div>
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK1 : </span>
+                                            <span className='m-span'>MARK-1 : </span>
                                                 <input type="text" name="setCmark11" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -577,7 +577,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK2 : </span>
+                                            <span className='m-span'>MARK-2 : </span>
                                                 <input type="text" name="setCmark12" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -594,7 +594,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK3 : </span>
+                                            <span className='m-span'>MARK-3 : </span>
                                                 <input type="text" name="setCmark13" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -611,7 +611,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK4 : </span>
+                                            <span className='m-span'>MARK-4 : </span>
                                                 <input type="text" name="setCmark14" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -628,7 +628,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK5 : </span>
+                                            <span className='m-span'>MARK-5 : </span>
                                                 <input type="text" name="setCmark15" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -645,7 +645,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK6 : </span>
+                                            <span className='m-span'>MARK-6 : </span>
                                                 <input type="text" name="setCmark16" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -662,7 +662,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK7 : </span>
+                                            <span className='m-span'>MARK-7 : </span>
                                                 <input type="text" name="setCmark17" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -679,7 +679,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK8 : </span>
+                                            <span className='m-span'>MARK-8 : </span>
                                                 <input type="text" name="setCmark18" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -696,7 +696,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>TOTAL : </span>
+                                            <span className='m-span'>TOTAL : </span>
                                                 <input type="text" name ="total_CT1" step="any" className='m-box' value={ CT1 } readOnly/>
                                                 <input type="text" name ="total_GT1" step="any" className='m-box' value={ GT1 } readOnly/>
                                                 <input type="text" name ="total_CGT1" step="any" className='m-box' value={ CGT1 } readOnly/>
@@ -738,10 +738,10 @@ const BoxAll = () => {
                                             <div className='t-head'><p className='t-span'>MARKS</p></div>
                                             <div className='t-head'><p className='t-span'>CREDITS</p></div>
                                             <div className='t-head'><p className='t-span'>GRADE</p></div>
-                                            <div className='t-head'><p className='t2-span'>CREDITS x GRADE</p></div>
+                                            <div className='t-head'><p className='t2-span'>CREDITS * GRADE</p></div>
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK1 : </span>
+                                            <span className='m-span'>MARK-1 : </span>
                                                 <input type="text" name="setCmark21" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -758,7 +758,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK2 : </span>
+                                            <span className='m-span'>MARK-2 : </span>
                                                 <input type="text" name="setCmark22" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -775,7 +775,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK3 : </span>
+                                            <span className='m-span'>MARK-3 : </span>
                                                 <input type="text" name="setCmark23" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -792,7 +792,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK4 : </span>
+                                            <span className='m-span'>MARK-4 : </span>
                                                 <input type="text" name="setCmark24" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -809,7 +809,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK4 : </span>
+                                            <span className='m-span'>MARK-5 : </span>
                                                 <input type="text" name="setCmark25" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -826,7 +826,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK6 : </span>
+                                            <span className='m-span'>MARK-6 : </span>
                                                 <input type="text" name="setCmark26" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -843,7 +843,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK7 : </span>
+                                            <span className='m-span'>MARK-7 : </span>
                                                 <input type="text" name="setCmark27" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -860,7 +860,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK8 : </span>
+                                            <span className='m-span'>MARK-8 : </span>
                                                 <input type="text" name="setCmark28" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -877,7 +877,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>TOTAL : </span>
+                                            <span className='m-span'>TOTAL : </span>
                                                 <input type="text" name ="total_CT2" step="any" className='m-box' value={ CT2 } readOnly/>
                                                 <input type="text" name ="total_GT2" step="any" className='m-box' value={ GT2 } readOnly/>
                                                 <input type="text" name ="total_CGT2" step="any" className='m-box' value={ CGT2 } readOnly/>
@@ -919,10 +919,10 @@ const BoxAll = () => {
                                             <div className='t-head'><p className='t-span'>MARKS</p></div>
                                             <div className='t-head'><p className='t-span'>CREDITS</p></div>
                                             <div className='t-head'><p className='t-span'>GRADE</p></div>
-                                            <div className='t-head'><p className='t2-span'>CREDITS x GRADE</p></div>
+                                            <div className='t-head'><p className='t2-span'>CREDITS * GRADE</p></div>
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK1 : </span>
+                                            <span className='m-span'>MARK-1 : </span>
                                                 <input type="text" name="setCmark31" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -939,7 +939,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK2 : </span>
+                                            <span className='m-span'>MARK-2 : </span>
                                                 <input type="text" name="setCmark32" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -956,7 +956,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK3 : </span>
+                                            <span className='m-span'>MARK-3 : </span>
                                                 <input type="text" name="setCmark33" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -973,7 +973,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK4 : </span>
+                                            <span className='m-span'>MARK-4 : </span>
                                                 <input type="text" name="setCmark34" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -990,7 +990,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK4 : </span>
+                                            <span className='m-span'>MARK-5 : </span>
                                                 <input type="text" name="setCmark35" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -1007,7 +1007,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK6 : </span>
+                                            <span className='m-span'>MARK-6 : </span>
                                                 <input type="text" name="setCmark36" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -1024,7 +1024,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK7 : </span>
+                                            <span className='m-span'>MARK-7 : </span>
                                                 <input type="text" name="setCmark37" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -1041,7 +1041,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>MARK8 : </span>
+                                            <span className='m-span'>MARK-8 : </span>
                                                 <input type="text" name="setCmark38" step="any" className="m-box"
                                                     onChange={(event) =>
                                                     {
@@ -1058,7 +1058,7 @@ const BoxAll = () => {
                                                 />
                                         </div>
                                         <div className='b-box'>
-                                            <span>TOTAL : </span>
+                                            <span className='m-span'>TOTAL : </span>
                                                 <input type="text" name ="total_CT3" step="any" className='m-box' value={ CT3 } readOnly/>
                                                 <input type="text" name ="total_GT3" step="any" className='m-box' value={ GT3 } readOnly/>
                                                 <input type="text" name ="total_CGT3" step="any" className='m-box' value={ CGT3 } readOnly/>
@@ -1099,10 +1099,10 @@ const BoxAll = () => {
                                         <div className='t-head'><p className='t-span'>MARKS</p></div>
                                         <div className='t-head'><p className='t-span'>CREDITS</p></div>
                                         <div className='t-head'><p className='t-span'>GRADE</p></div>
-                                        <div className='t-head'><p className='t2-span'>CREDITS x GRADE</p></div>
+                                        <div className='t-head'><p className='t2-span'>CREDITS * GRADE</p></div>
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK1 : </span>
+                                        <span className='m-span'>MARK-1 : </span>
                                             <input type="text" name="setCmark41" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1119,7 +1119,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK2 : </span>
+                                        <span className='m-span'>MARK-2 : </span>
                                             <input type="text" name="setCmark42" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1136,7 +1136,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK3 : </span>
+                                        <span className='m-span'>MARK-3 : </span>
                                             <input type="text" name="setCmark43" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1153,7 +1153,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK4 : </span>
+                                        <span className='m-span'>MARK-4 : </span>
                                             <input type="text" name="setCmark44" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1170,7 +1170,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK4 : </span>
+                                        <span className='m-span'>MARK-5 : </span>
                                             <input type="text" name="setCmark45" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1187,7 +1187,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK6 : </span>
+                                        <span className='m-span'>MARK-6 : </span>
                                             <input type="text" name="setCmark46" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1204,7 +1204,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK7 : </span>
+                                        <span className='m-span'>MARK-7 : </span>
                                             <input type="text" name="setCmark47" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1221,7 +1221,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK8 : </span>
+                                        <span className='m-span'>MARK-8 : </span>
                                             <input type="text" name="setCmark48" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1238,7 +1238,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>TOTAL : </span>
+                                        <span className='m-span'>TOTAL : </span>
                                             <input type="text" name ="total_CT4" step="any" className='m-box' value={ CT4 } readOnly/>
                                             <input type="text" name ="total_GT4" step="any" className='m-box' value={ GT4 } readOnly/>
                                             <input type="text" name ="total_CGT4" step="any" className='m-box' value={ CGT4 } readOnly/>
@@ -1280,10 +1280,10 @@ const BoxAll = () => {
                                         <div className='t-head'><p className='t-span'>MARKS</p></div>
                                         <div className='t-head'><p className='t-span'>CREDITS</p></div>
                                         <div className='t-head'><p className='t-span'>GRADE</p></div>
-                                        <div className='t-head'><p className='t2-span'>CREDITS x GRADE</p></div>
+                                        <div className='t-head'><p className='t2-span'>CREDITS * GRADE</p></div>
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK1 : </span>
+                                        <span className='m-span'>MARK-1 : </span>
                                             <input type="text" name="setCmark51" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1300,7 +1300,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK2 : </span>
+                                        <span className='m-span'>MARK-2 : </span>
                                             <input type="text" name="setCmark52" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1317,7 +1317,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK3 : </span>
+                                        <span className='m-span'>MARK-3 : </span>
                                             <input type="text" name="setCmark53" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1334,7 +1334,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK4 : </span>
+                                        <span className='m-span'>MARK-4 : </span>
                                             <input type="text" name="setCmark54" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1351,7 +1351,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK4 : </span>
+                                        <span className='m-span'>MARK-5 : </span>
                                             <input type="text" name="setCmark55" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1368,7 +1368,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK6 : </span>
+                                        <span className='m-span'>MARK-6 : </span>
                                             <input type="text" name="setCmark56" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1385,7 +1385,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK7 : </span>
+                                        <span className='m-span'>MARK-7 : </span>
                                             <input type="text" name="setCmark57" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1402,7 +1402,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK8 : </span>
+                                        <span className='m-span'>MARK-8 : </span>
                                             <input type="text" name="setCmark58" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1419,7 +1419,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>TOTAL : </span>
+                                        <span className='m-span'>TOTAL : </span>
                                             <input type="text" name ="total_CT5" step="any" className='m-box' value={ CT5 } readOnly/>
                                             <input type="text" name ="total_GT5" step="any" className='m-box' value={ GT5 } readOnly/>
                                             <input type="text" name ="total_CGT5" step="any" className='m-box' value={ CGT5 } readOnly/>
@@ -1461,10 +1461,10 @@ const BoxAll = () => {
                                                 <div className='t-head'><p className='t-span'>MARKS</p></div>
                                                 <div className='t-head'><p className='t-span'>CREDITS</p></div>
                                                 <div className='t-head'><p className='t-span'>GRADE</p></div>
-                                                <div className='t-head'><p className='t2-span'>CREDITS x GRADE</p></div>
+                                                <div className='t-head'><p className='t2-span'>CREDITS * GRADE</p></div>
                                             </div>
                                             <div className='b-box'>
-                                                <span>MARK1 : </span>
+                                                <span className='m-span'>MARK-1 : </span>
                                                     <input type="text" name="setCmark61" step="any" className="m-box"
                                                         onChange={(event) =>
                                                         {
@@ -1481,7 +1481,7 @@ const BoxAll = () => {
                                                     />
                                             </div>
                                             <div className='b-box'>
-                                                <span>MARK2 : </span>
+                                                <span className='m-span'>MARK-2 : </span>
                                                     <input type="text" name="setCmark62" step="any" className="m-box"
                                                         onChange={(event) =>
                                                         {
@@ -1498,7 +1498,7 @@ const BoxAll = () => {
                                                     />
                                             </div>
                                             <div className='b-box'>
-                                                <span>MARK3 : </span>
+                                                <span className='m-span'>MARK-3 : </span>
                                                     <input type="text" name="setCmark63" step="any" className="m-box"
                                                         onChange={(event) =>
                                                         {
@@ -1515,7 +1515,7 @@ const BoxAll = () => {
                                                     />
                                             </div>
                                             <div className='b-box'>
-                                                <span>MARK4 : </span>
+                                                <span className='m-span'>MARK-4 : </span>
                                                     <input type="text" name="setCmark64" step="any" className="m-box"
                                                         onChange={(event) =>
                                                         {
@@ -1532,7 +1532,7 @@ const BoxAll = () => {
                                                     />
                                             </div>
                                             <div className='b-box'>
-                                                <span>MARK4 : </span>
+                                                <span className='m-span'>MARK-5 : </span>
                                                     <input type="text" name="setCmark65" step="any" className="m-box"
                                                         onChange={(event) =>
                                                         {
@@ -1549,7 +1549,7 @@ const BoxAll = () => {
                                                     />
                                             </div>
                                             <div className='b-box'>
-                                                <span>MARK6 : </span>
+                                                <span className='m-span'>MARK-6 : </span>
                                                     <input type="text" name="setCmark66" step="any" className="m-box"
                                                         onChange={(event) =>
                                                         {
@@ -1566,7 +1566,7 @@ const BoxAll = () => {
                                                     />
                                             </div>
                                             <div className='b-box'>
-                                                <span>MARK7 : </span>
+                                                <span className='m-span'>MARK-7 : </span>
                                                     <input type="text" name="setCmark67" step="any" className="m-box"
                                                         onChange={(event) =>
                                                         {
@@ -1583,7 +1583,7 @@ const BoxAll = () => {
                                                     />
                                             </div>
                                             <div className='b-box'>
-                                                <span>MARK8 : </span>
+                                                <span className='m-span'>MARK-8 : </span>
                                                     <input type="text" name="setCmark68" step="any" className="m-box"
                                                         onChange={(event) =>
                                                         {
@@ -1600,7 +1600,7 @@ const BoxAll = () => {
                                                     />
                                             </div>
                                             <div className='b-box'>
-                                                <span>TOTAL : </span>
+                                                <span className='m-span'>TOTAL : </span>
                                                     <input type="text" name ="total_CT6" step="any" className='m-box' value={ CT6 } readOnly/>
                                                     <input type="text" name ="total_GT6" step="any" className='m-box' value={ GT6 } readOnly/>
                                                     <input type="text" name ="total_CGT6" step="any" className='m-box' value={ CGT6 } readOnly/>
@@ -1641,10 +1641,10 @@ const BoxAll = () => {
                                         <div className='t-head'><p className='t-span'>MARKS</p></div>
                                         <div className='t-head'><p className='t-span'>CREDITS</p></div>
                                         <div className='t-head'><p className='t-span'>GRADE</p></div>
-                                        <div className='t-head'><p className='t2-span'>CREDITS x GRADE</p></div>
+                                        <div className='t-head'><p className='t2-span'>CREDITS * GRADE</p></div>
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK1 : </span>
+                                        <span className='m-span'>MARK-1 : </span>
                                             <input type="text" name="setCmark71" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1661,7 +1661,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK2 : </span>
+                                        <span className='m-span'>MARK-2 : </span>
                                             <input type="text" name="setCmark72" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1678,7 +1678,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK3 : </span>
+                                        <span className='m-span'>MARK-3 : </span>
                                             <input type="text" name="setCmark73" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1695,7 +1695,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK4 : </span>
+                                        <span className='m-span'>MARK-4 : </span>
                                             <input type="text" name="setCmark74" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1712,7 +1712,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK4 : </span>
+                                        <span className='m-span'>MARK-5 : </span>
                                             <input type="text" name="setCmark75" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1729,7 +1729,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK6 : </span>
+                                        <span className='m-span'>MARK-6 : </span>
                                             <input type="text" name="setCmark76" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1746,7 +1746,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK7 : </span>
+                                        <span className='m-span'>MARK-7 : </span>
                                             <input type="text" name="setCmark77" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1763,7 +1763,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK8 : </span>
+                                        <span className='m-span'>MARK-8 : </span>
                                             <input type="text" name="setCmark78" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1780,7 +1780,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>TOTAL : </span>
+                                        <span className='m-span'>TOTAL : </span>
                                             <input type="text" name ="total_CT7" step="any" className='m-box' value={ CT7 } readOnly/>
                                             <input type="text" name ="total_GT7" step="any" className='m-box' value={ GT7 } readOnly/>
                                             <input type="text" name ="total_CGT7" step="any" className='m-box' value={ CGT7 } readOnly/>
@@ -1821,10 +1821,10 @@ const BoxAll = () => {
                                         <div className='t-head'><p className='t-span'>MARKS</p></div>
                                         <div className='t-head'><p className='t-span'>CREDITS</p></div>
                                         <div className='t-head'><p className='t-span'>GRADE</p></div>
-                                        <div className='t-head'><p className='t2-span'>CREDITS x GRADE</p></div>
+                                        <div className='t-head'><p className='t2-span'>CREDITS * GRADE</p></div>
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK1 : </span>
+                                        <span className='m-span'>MARK-1 : </span>
                                             <input type="text" name="setCmark81" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1841,7 +1841,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK2 : </span>
+                                        <span className='m-span'>MARK-2 : </span>
                                             <input type="text" name="setCmark82" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1858,7 +1858,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK3 : </span>
+                                        <span className='m-span'>MARK-3 : </span>
                                             <input type="text" name="setCmark83" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1875,7 +1875,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK4 : </span>
+                                        <span className='m-span'>MARK-4 : </span>
                                             <input type="text" name="setCmark84" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1892,7 +1892,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK4 : </span>
+                                        <span className='m-span'>MARK-5 : </span>
                                             <input type="text" name="setCmark85" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1909,7 +1909,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK6 : </span>
+                                        <span className='m-span'>MARK-6 : </span>
                                             <input type="text" name="setCmark86" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1926,7 +1926,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK7 : </span>
+                                        <span className='m-span'>MARK-7 : </span>
                                             <input type="text" name="setCmark87" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1943,7 +1943,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>MARK8 : </span>
+                                        <span className='m-span'>MARK-8 : </span>
                                             <input type="text" name="setCmark88" step="any" className="m-box"
                                                 onChange={(event) =>
                                                 {
@@ -1960,7 +1960,7 @@ const BoxAll = () => {
                                             />
                                     </div>
                                     <div className='b-box'>
-                                        <span>TOTAL : </span>
+                                        <span className='m-span'>TOTAL : </span>
                                             <input type="text" name ="total_CT8" step="any" className='m-box' value={ CT8 } readOnly/>
                                             <input type="text" name ="total_GT8" step="any" className='m-box' value={ GT8 } readOnly/>
                                             <input type="text" name ="total_CGT8" step="any" className='m-box' value={ CGT8 } readOnly/>
@@ -2000,22 +2000,22 @@ const BoxAll = () => {
 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEM-01 TOTAL GRADE :</span>
+                    <span className='r-text'>SEMSTER-01 TOTAL   GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT1} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEM-01 CREDITS x GRADE :</span>
+                    <span className='r-text'>SEMSTER-01 CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={CGT1} readOnly/>
                   </div>
                 </div>
                 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEM-02 TOTAL GRADE :</span>
+                    <span className='r-text'>SEMSTER-02 TOTAL GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT2} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEM-02 CREDITS x GRADE :</span>
+                    <span className='r-text'>SEMSTER-02 CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={CGT2} readOnly/>
                   </div>
                 </div>
@@ -2023,66 +2023,66 @@ const BoxAll = () => {
 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEM-03 TOTAL GRADE :</span>
+                    <span className='r-text'>SEMSTER-03 TOTAL GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT3} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEM-03 CREDITS x GRADE :</span>
+                    <span className='r-text'>SEMSTER-03 CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={CGT3} readOnly/>
                   </div>
                 </div>
 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEM-04 TOTAL GRADE :</span>
+                    <span className='r-text'>SEMSTER-04 TOTAL GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT4} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEM-04 CREDITS x GRADE :</span>
+                    <span className='r-text'>SEMSTER-04 CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={CGT4} readOnly/>
                   </div>
                 </div>
 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEM-05 TOTAL GRADE :</span>
+                    <span className='r-text'>SEMSTER-05 TOTAL GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT5} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEM-05 CREDITS x GRADE :</span>
+                    <span className='r-text'>SEMSTER-05 CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={CGT5} readOnly/>
                   </div>
                 </div>
                 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEM-06 TOTAL GRADE :</span>
+                    <span className='r-text'>SEMSTER-06 TOTAL GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT6} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEM-06 CREDITS x GRADE :</span>
+                    <span className='r-text'>SEMSTER-06 CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={CGT6} readOnly/>
                   </div>
                 </div>
                 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEM-07 TOTAL GRADE :</span>
+                    <span className='r-text'>SEMSTER-07 TOTAL GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT7} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEM-07 CREDITS x GRADE :</span>
+                    <span className='r-text'>SEMSTER-07 CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={CGT7} readOnly/>
                   </div>
                 </div>
                 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEM-08 TOTAL GRADE :</span>
+                    <span className='r-text'>SEMSTER-08 TOTAL GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT8} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEM-08 CREDITS x GRADE :</span>
+                    <span className='r-text'>SEMSTER-08 CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={CGT8} readOnly/>
                   </div>
                 </div>
@@ -2097,7 +2097,7 @@ const BoxAll = () => {
                     <input type="text" name="" step="any" className="r-box" value={allGtotal} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>ALL CREDITS x GRADE :</span>
+                    <span className='r-text'>ALL CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={allCGtotal} readOnly/>
                   </div>
                 </div>
@@ -2110,11 +2110,13 @@ const BoxAll = () => {
                   <input type="text" name="" step="any" className="pr-box" value={at} readOnly/>
                     </div>
                 </div>
+                
               </div>
                   
               </div>
             <div className="col-1"></div>
           </div>
+          
 
     </div>
   )

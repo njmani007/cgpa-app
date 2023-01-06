@@ -11,7 +11,7 @@ body{
 
 .card{
     width: 100%;
-    height: 116vh;
+    height: 126vh;
     background: #E3FDFD;
     color: #fff;
     font-size: 30px;
@@ -20,8 +20,7 @@ body{
 
 .d-box{
     display: flex;
-    flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     height: 18%;
     justify-content: center;
     align-content: space-around;
@@ -121,7 +120,7 @@ body{
 }
 .a-box {
     width: 100%;
-    height: 110vh;
+    height: 120vh;
     background-color: #71C9CE;
     display: flex;
     flex-direction: row;
@@ -147,7 +146,6 @@ body{
     flex-direction: column;
     gap: 3%;
     padding: 1.3rem 0;
-    background-color: #71C9CE;
 }
 .sem-box{
   width: 90%;
@@ -192,7 +190,7 @@ body{
   border-radius: 4px;
 }
 .sem{
-  font-size: 20px;
+  font-size: 26px;
   width: 90%;
   top: 50%;
   left: 50%;
@@ -299,6 +297,15 @@ span{
 .button-c:active {
   transform: scale(1.025);
 }
+.m-span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #FF165D;
+    width: 20%;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
 
 @media (min-width: 768px) {
   .button-c {
@@ -308,8 +315,10 @@ span{
 }
 
 
-@media screen and (max-width:480px){
-   
+@media screen and (min-width:320px) and (max-width:480px){
+    .sem{
+        font-size: 20px;
+    }
     .t-span{
         font-size: 9px;
     }
@@ -321,8 +330,11 @@ span{
     span{
         font-size: 10px;
     }
+    .m-span{
+        font-size: 9px;
+    }
     .m-box{
-        font-size: 0.5rem;
+        font-size: 0.6rem;
     }
     .button-c{
         font-size: 0.8rem;
@@ -350,9 +362,10 @@ span{
     }
     .c-boxs{
         gap: 0.8rem;
+        width: 100%;
     }
     .r-text{
-        font-size: 12px;
+        font-size: 11px;
     }
     .r-box{
         font-size: 12px;
@@ -360,7 +373,141 @@ span{
     .ans{
         height: 80vh;
     }
+    .d-box{
+        flex-wrap: wrap;
+    }
 
+}
+@media screen and (min-width:481px)and (max-width:768px){
+    .ans {
+        height: 90vh;
+    }
+    .t-span {
+        font-size: 17px;
+    }
+    .t2-span {
+        font-size: 17px;
+        top: 15%;
+    }
+
+
+    /**/
+    span{
+        font-size: 10px;
+    }
+    .m-span{
+        font-size: 10px;
+    }
+    
+    
+    
+    .gpa {
+        font-size: 23px;
+        width: 25%;
+    }
+    .t-box{
+        font-size: 1.5rem;
+    }
+    .contain {
+        height: 118vh;
+    }
+    .box{
+        height: 56vh;
+    }
+    .a-box {
+        height: 92vh;
+    }
+    .card {
+        height: 95vh;
+    }
+    .c-boxs{
+        gap: 0.8rem;
+    }
+    .r-text{
+        font-size: 15px;
+    }
+    .r-box{
+        font-size: 17px;
+    }
+    
+    .d-box{
+        flex-wrap: wrap;
+    }
+    .b-box:nth-child(2) {
+        
+        height: 4rem;
+    }
+    .m-span {
+        font-size: 19px;
+    }
+    
 }
 
 
+@media screen and (min-width:769px)and (max-width:1023px){
+    .ans {
+        height: 90vh;
+    }
+    .t-span {
+        font-size: 17px;
+    }
+    .t2-span {
+        font-size: 17px;
+        top: 3%;
+    }
+
+
+    /**/
+    span{
+        font-size: 10px;
+    }
+    .m-span{
+        font-size: 10px;
+    }
+    
+    
+    
+    .gpa {
+        font-size: 23px;
+        width: 25%;
+    }
+    .t-box{
+        font-size: 1.5rem;
+    }
+    .contain {
+        height: 118vh;
+    }
+    .box{
+        height: 178vh;
+    }
+    .a-box {
+        height: 178vh;
+    }
+    .card {
+        height: 187vh;
+    }
+    .c-boxs{
+        gap: 0.8rem;
+    }
+    .r-text{
+        font-size: 15px;
+    }
+    .r-box{
+        font-size: 17px;
+    }
+    
+    .d-box{
+        flex-wrap: wrap;
+    }
+    .b-box:nth-child(2) {
+        
+        height: 4rem;
+    }
+    .m-span {
+        font-size: 19px;
+    }
+    .container {
+        max-width: 768px;
+    }
+    
+}
