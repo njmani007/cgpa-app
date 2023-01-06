@@ -1,0 +1,32 @@
+
+
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.h-head{
+    margin-left: 7px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.a-head{
+    width: 100%;
+    height: 80%;
+    background-color:ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.a-span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkred;
+    width: 100%;
+    font-weight: 800;
+    font-size: 2rem;
+}

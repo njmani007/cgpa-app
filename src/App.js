@@ -2,12 +2,14 @@
 import "./style.scss";
 // import Framel from "./Framel/Framel";
 import BoxAll from "./components/BoxAll/BoxAll";
+import Heading from "./components/Heading/Heading";
 
 function App() {
 
         return(
           <div>
-            <BoxAll/>
+            <Heading />
+            <BoxAll />
           </div>
         )
 
