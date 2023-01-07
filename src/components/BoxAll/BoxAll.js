@@ -309,7 +309,7 @@ const BoxAll = () => {
 
 
     // Total declaration
-    const [allGtotal,setAllGtotal] = useState(0);
+    const [allCtotal,setAllCtotal] = useState(0);
     const [allCGtotal,setAllCGtotal] = useState(0);
     const [tot,setTot] = useState(0);
     const at = tot.toFixed(4);
@@ -339,7 +339,7 @@ const BoxAll = () => {
       setCGtotal1((Number(cm11) * Number(gm11)) + (Number(cm12) * Number(gm12)) + (Number(cm13) * Number(gm13)) + (Number(cm14) * Number(gm14)) + (Number(cm15) * Number(gm15)) + (Number(cm16) * Number(gm16)) + (Number(cm17) * Number(gm17)) + (Number(cm18) * Number(gm18))); // set number to the state
       
     
-      setGPAtotal1(((Number(cm11) * Number(gm11)) + (Number(cm12) * Number(gm12)) + (Number(cm13) * Number(gm13)) + (Number(cm14) * Number(gm14)) + (Number(cm15) * Number(gm15)) + (Number(cm16) * Number(gm16)) + (Number(cm17) * Number(gm17)) + (Number(cm18) * Number(gm18))) / (Number(gm11) + Number(gm12) + Number(gm13) + Number(gm14) + Number(gm15) + Number(gm16) + Number(gm17) + Number(gm18))
+      setGPAtotal1(((Number(cm11) * Number(gm11)) + (Number(cm12) * Number(gm12)) + (Number(cm13) * Number(gm13)) + (Number(cm14) * Number(gm14)) + (Number(cm15) * Number(gm15)) + (Number(cm16) * Number(gm16)) + (Number(cm17) * Number(gm17)) + (Number(cm18) * Number(gm18))) / (Number(cm11) + Number(cm12) + Number(cm13) + Number(cm14) + Number(cm15) + Number(cm16) + Number(cm17) + Number(cm18))
       )
       
     }
@@ -364,7 +364,7 @@ const BoxAll = () => {
     setCGtotal2((Number(cm21) * Number(gm21)) + (Number(cm22) * Number(gm22)) + (Number(cm23) * Number(gm23)) + (Number(cm24) * Number(gm24)) + (Number(cm25) * Number(gm25)) + (Number(cm26) * Number(gm26)) + (Number(cm27) * Number(gm27)) + (Number(cm28) * Number(gm28))); // set number to the state
     
 
-    setGPAtotal2(((Number(cm21) * Number(gm21)) + (Number(cm22) * Number(gm22)) + (Number(cm23) * Number(gm23)) + (Number(cm24) * Number(gm24)) + (Number(cm25) * Number(gm25)) + (Number(cm26) * Number(gm26)) + (Number(cm27) * Number(gm27)) + (Number(cm28) * Number(gm28))) / (Number(gm21) + Number(gm22) + Number(gm23) + Number(gm24) + Number(gm25) + Number(gm26) + Number(gm27) + Number(gm28))
+    setGPAtotal2(((Number(cm21) * Number(gm21)) + (Number(cm22) * Number(gm22)) + (Number(cm23) * Number(gm23)) + (Number(cm24) * Number(gm24)) + (Number(cm25) * Number(gm25)) + (Number(cm26) * Number(gm26)) + (Number(cm27) * Number(gm27)) + (Number(cm28) * Number(gm28))) / (Number(cm21) + Number(cm22) + Number(cm23) + Number(cm24) + Number(cm25) + Number(cm26) + Number(cm27) + Number(cm28))
     )
     
     }
@@ -388,7 +388,7 @@ const BoxAll = () => {
     setCGtotal3((Number(cm31) * Number(gm31)) + (Number(cm32) * Number(gm32)) + (Number(cm33) * Number(gm33)) + (Number(cm34) * Number(gm34)) + (Number(cm35) * Number(gm35)) + (Number(cm36) * Number(gm36)) + (Number(cm37) * Number(gm37)) + (Number(cm38) * Number(gm38))); // set number to the state
     
   
-    setGPAtotal3(((Number(cm31) * Number(gm31)) + (Number(cm32) * Number(gm32)) + (Number(cm33) * Number(gm33)) + (Number(cm34) * Number(gm34)) + (Number(cm35) * Number(gm35)) + (Number(cm36) * Number(gm36)) + (Number(cm37) * Number(gm37)) + (Number(cm38) * Number(gm38))) / (Number(gm31) + Number(gm32) + Number(gm33) + Number(gm34) + Number(gm35) + Number(gm36) + Number(gm37) + Number(gm38))
+    setGPAtotal3(((Number(cm31) * Number(gm31)) + (Number(cm32) * Number(gm32)) + (Number(cm33) * Number(gm33)) + (Number(cm34) * Number(gm34)) + (Number(cm35) * Number(gm35)) + (Number(cm36) * Number(gm36)) + (Number(cm37) * Number(gm37)) + (Number(cm38) * Number(gm38))) / (Number(cm31) + Number(cm32) + Number(cm33) + Number(cm34) + Number(cm35) + Number(cm36) + Number(cm37) + Number(cm38))
     )
     
   }
@@ -412,7 +412,7 @@ const BoxAll = () => {
     setCGtotal4((Number(cm41) * Number(gm41)) + (Number(cm42) * Number(gm42)) + (Number(cm43) * Number(gm43)) + (Number(cm44) * Number(gm44)) + (Number(cm45) * Number(gm45)) + (Number(cm46) * Number(gm46)) + (Number(cm47) * Number(gm47)) + (Number(cm48) * Number(gm48))); // set number to the state
     
   
-    setGPAtotal4(((Number(cm41) * Number(gm41)) + (Number(cm42) * Number(gm42)) + (Number(cm43) * Number(gm43)) + (Number(cm44) * Number(gm44)) + (Number(cm45) * Number(gm45)) + (Number(cm46) * Number(gm46)) + (Number(cm47) * Number(gm47)) + (Number(cm48) * Number(gm48))) / (Number(gm41) + Number(gm42) + Number(gm43) + Number(gm44) + Number(gm45) + Number(gm46) + Number(gm47) + Number(gm48))
+    setGPAtotal4(((Number(cm41) * Number(gm41)) + (Number(cm42) * Number(gm42)) + (Number(cm43) * Number(gm43)) + (Number(cm44) * Number(gm44)) + (Number(cm45) * Number(gm45)) + (Number(cm46) * Number(gm46)) + (Number(cm47) * Number(gm47)) + (Number(cm48) * Number(gm48))) / (Number(cm41) + Number(cm42) + Number(cm43) + Number(cm44) + Number(cm45) + Number(cm46) + Number(cm47) + Number(cm48))
     )
     
   }
@@ -438,7 +438,7 @@ const BoxAll = () => {
     setCGtotal5((Number(cm51) * Number(gm51)) + (Number(cm52) * Number(gm52)) + (Number(cm53) * Number(gm53)) + (Number(cm54) * Number(gm54)) + (Number(cm55) * Number(gm55)) + (Number(cm56) * Number(gm56)) + (Number(cm57) * Number(gm57)) + (Number(cm58) * Number(gm58))); // set number to the state
     
   
-    setGPAtotal5(((Number(cm51) * Number(gm51)) + (Number(cm52) * Number(gm52)) + (Number(cm53) * Number(gm53)) + (Number(cm54) * Number(gm54)) + (Number(cm55) * Number(gm55)) + (Number(cm56) * Number(gm56)) + (Number(cm57) * Number(gm57)) + (Number(cm58) * Number(gm58))) / (Number(gm51) + Number(gm52) + Number(gm53) + Number(gm54) + Number(gm55) + Number(gm56) + Number(gm57) + Number(gm58))
+    setGPAtotal5(((Number(cm51) * Number(gm51)) + (Number(cm52) * Number(gm52)) + (Number(cm53) * Number(gm53)) + (Number(cm54) * Number(gm54)) + (Number(cm55) * Number(gm55)) + (Number(cm56) * Number(gm56)) + (Number(cm57) * Number(gm57)) + (Number(cm58) * Number(gm58))) / (Number(cm51) + Number(cm52) + Number(cm53) + Number(cm54) + Number(cm55) + Number(cm56) + Number(cm57) + Number(cm58))
     )
     
   }
@@ -462,7 +462,7 @@ const BoxAll = () => {
     setCGtotal6((Number(cm61) * Number(gm61)) + (Number(cm62) * Number(gm62)) + (Number(cm63) * Number(gm63)) + (Number(cm64) * Number(gm64)) + (Number(cm65) * Number(gm65)) + (Number(cm66) * Number(gm66)) + (Number(cm67) * Number(gm67)) + (Number(cm68) * Number(gm68))); // set number to the state
     
   
-    setGPAtotal6(((Number(cm61) * Number(gm61)) + (Number(cm62) * Number(gm62)) + (Number(cm63) * Number(gm63)) + (Number(cm64) * Number(gm64)) + (Number(cm65) * Number(gm65)) + (Number(cm66) * Number(gm66)) + (Number(cm67) * Number(gm67)) + (Number(cm68) * Number(gm68))) / (Number(gm61) + Number(gm62) + Number(gm63) + Number(gm64) + Number(gm65) + Number(gm66) + Number(gm67) + Number(gm68))
+    setGPAtotal6(((Number(cm61) * Number(gm61)) + (Number(cm62) * Number(gm62)) + (Number(cm63) * Number(gm63)) + (Number(cm64) * Number(gm64)) + (Number(cm65) * Number(gm65)) + (Number(cm66) * Number(gm66)) + (Number(cm67) * Number(gm67)) + (Number(cm68) * Number(gm68))) / (Number(cm61) + Number(cm62) + Number(cm63) + Number(cm64) + Number(cm65) + Number(cm66) + Number(cm67) + Number(cm68))
     )
     
   }
@@ -486,7 +486,7 @@ const BoxAll = () => {
     setCGtotal7((Number(cm71) * Number(gm71)) + (Number(cm72) * Number(gm72)) + (Number(cm73) * Number(gm73)) + (Number(cm74) * Number(gm74)) + (Number(cm75) * Number(gm75)) + (Number(cm76) * Number(gm76)) + (Number(cm77) * Number(gm77)) + (Number(cm78) * Number(gm78))); // set number to the state
     
   
-    setGPAtotal7(((Number(cm71) * Number(gm71)) + (Number(cm72) * Number(gm72)) + (Number(cm73) * Number(gm73)) + (Number(cm74) * Number(gm74)) + (Number(cm75) * Number(gm75)) + (Number(cm76) * Number(gm76)) + (Number(cm77) * Number(gm77)) + (Number(cm78) * Number(gm78))) / (Number(gm71) + Number(gm72) + Number(gm73) + Number(gm74) + Number(gm75) + Number(gm76) + Number(gm77) + Number(gm78))
+    setGPAtotal7(((Number(cm71) * Number(gm71)) + (Number(cm72) * Number(gm72)) + (Number(cm73) * Number(gm73)) + (Number(cm74) * Number(gm74)) + (Number(cm75) * Number(gm75)) + (Number(cm76) * Number(gm76)) + (Number(cm77) * Number(gm77)) + (Number(cm78) * Number(gm78))) / (Number(cm71) + Number(cm72) + Number(cm73) + Number(cm74) + Number(cm75) + Number(cm76) + Number(cm77) + Number(cm78))
     )
     
   }
@@ -510,7 +510,7 @@ const BoxAll = () => {
     setCGtotal8((Number(cm81) * Number(gm81)) + (Number(cm82) * Number(gm82)) + (Number(cm83) * Number(gm83)) + (Number(cm84) * Number(gm84)) + (Number(cm85) * Number(gm85)) + (Number(cm86) * Number(gm86)) + (Number(cm87) * Number(gm87)) + (Number(cm88) * Number(gm88))); // set number to the state
     
   
-    setGPAtotal8(((Number(cm81) * Number(gm81)) + (Number(cm82) * Number(gm82)) + (Number(cm83) * Number(gm83)) + (Number(cm84) * Number(gm84)) + (Number(cm85) * Number(gm85)) + (Number(cm86) * Number(gm86)) + (Number(cm87) * Number(gm87)) + (Number(cm88) * Number(gm88))) / (Number(gm81) + Number(gm82) + Number(gm83) + Number(gm84) + Number(gm85) + Number(gm86) + Number(gm87) + Number(gm88))
+    setGPAtotal8(((Number(cm81) * Number(gm81)) + (Number(cm82) * Number(gm82)) + (Number(cm83) * Number(gm83)) + (Number(cm84) * Number(gm84)) + (Number(cm85) * Number(gm85)) + (Number(cm86) * Number(gm86)) + (Number(cm87) * Number(gm87)) + (Number(cm88) * Number(gm88))) / (Number(cm81) + Number(cm82) + Number(cm83) + Number(cm84) + Number(cm85) + Number(cm86) + Number(cm87) + Number(cm88))
     )
     
   }
@@ -519,9 +519,9 @@ const BoxAll = () => {
 
   function totalclick() 
   {
-      setAllGtotal(Number(GT1) + Number(GT2) + Number(GT3) + Number(GT4) + Number(GT5) + Number(GT6) + Number(GT7) + Number(GT8))
+      setAllCtotal(Number(CT1) + Number(CT2) + Number(CT3) + Number(CT4) + Number(CT5) + Number(CT6) + Number(CT7) + Number(CT8))
       setAllCGtotal(Number(CGT1) + Number(CGT2) + Number(CGT3) + Number(CGT4) + Number(CGT5) + Number(CGT6) + Number(CGT7) + Number(CGT8))
-      setTot((Number(CGT1) + Number(CGT2) + Number(CGT3) + Number(CGT4) + Number(CGT5) + Number(CGT6) + Number(CGT7) + Number(CGT8))/(Number(GT1) + Number(GT2) + Number(GT3) + Number(GT4) + Number(GT5) + Number(GT6) + Number(GT7) + Number(GT8)))
+      setTot((Number(CGT1) + Number(CGT2) + Number(CGT3) + Number(CGT4) + Number(CGT5) + Number(CGT6) + Number(CGT7) + Number(CGT8))/(Number(CT1) + Number(CT2) + Number(CT3) + Number(CT4) + Number(CT5) + Number(CT6) + Number(CT7) + Number(CT8)))
   }
 
 
@@ -2000,7 +2000,7 @@ const BoxAll = () => {
 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-01 TOTAL   GRADE :</span>
+                    <span className='r-text'>SEMSTER-01 TOTAL CREDITS :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT1} readOnly/>
                   </div>
                   <div className='c-boxs'>
@@ -2011,7 +2011,7 @@ const BoxAll = () => {
                 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-02 TOTAL GRADE :</span>
+                    <span className='r-text'>SEMSTER-02 TOTAL CREDITS :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT2} readOnly/>
                   </div>
                   <div className='c-boxs'>
@@ -2023,7 +2023,7 @@ const BoxAll = () => {
 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-03 TOTAL GRADE :</span>
+                    <span className='r-text'>SEMSTER-03 TOTAL CREDITS :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT3} readOnly/>
                   </div>
                   <div className='c-boxs'>
@@ -2034,7 +2034,7 @@ const BoxAll = () => {
 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-04 TOTAL GRADE :</span>
+                    <span className='r-text'>SEMSTER-04 TOTAL CREDITS :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT4} readOnly/>
                   </div>
                   <div className='c-boxs'>
@@ -2045,7 +2045,7 @@ const BoxAll = () => {
 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-05 TOTAL GRADE :</span>
+                    <span className='r-text'>SEMSTER-05 TOTAL CREDITS :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT5} readOnly/>
                   </div>
                   <div className='c-boxs'>
@@ -2056,7 +2056,7 @@ const BoxAll = () => {
                 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-06 TOTAL GRADE :</span>
+                    <span className='r-text'>SEMSTER-06 TOTAL CREDITS :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT6} readOnly/>
                   </div>
                   <div className='c-boxs'>
@@ -2067,7 +2067,7 @@ const BoxAll = () => {
                 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-07 TOTAL GRADE :</span>
+                    <span className='r-text'>SEMSTER-07 TOTAL CREDITS :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT7} readOnly/>
                   </div>
                   <div className='c-boxs'>
@@ -2078,7 +2078,7 @@ const BoxAll = () => {
                 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-08 TOTAL GRADE :</span>
+                    <span className='r-text'>SEMSTER-08 TOTAL CREDITS :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT8} readOnly/>
                   </div>
                   <div className='c-boxs'>
@@ -2093,8 +2093,8 @@ const BoxAll = () => {
 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>ALL TOTAL GRADE :</span>
-                    <input type="text" name="" step="any" className="r-box" value={allGtotal} readOnly/>
+                    <span className='r-text'>ALL TOTAL CREDITS :</span>
+                    <input type="text" name="" step="any" className="r-box" value={allCtotal} readOnly/>
                   </div>
                   <div className='c-boxs'>
                     <span className='r-text'>ALL CREDITS * GRADE :</span>
