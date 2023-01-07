@@ -2000,22 +2000,22 @@ const BoxAll = () => {
 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-01 TOTAL CREDITS :</span>
+                    <span className='r-text'>SEMESTER-01 TOTAL CREDITS :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT1} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-01 CREDITS * GRADE :</span>
+                    <span className='r-text'>SEMESTER-01 CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={CGT1} readOnly/>
                   </div>
                 </div>
                 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-02 TOTAL CREDITS :</span>
+                    <span className='r-text'>SEMESTER-02 TOTAL CREDITS :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT2} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-02 CREDITS * GRADE :</span>
+                    <span className='r-text'>SEMESTER-02 CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={CGT2} readOnly/>
                   </div>
                 </div>
@@ -2023,66 +2023,66 @@ const BoxAll = () => {
 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-03 TOTAL CREDITS :</span>
+                    <span className='r-text'>SEMESTER-03 TOTAL CREDITS :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT3} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-03 CREDITS * GRADE :</span>
+                    <span className='r-text'>SEMESTER-03 CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={CGT3} readOnly/>
                   </div>
                 </div>
 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-04 TOTAL CREDITS :</span>
+                    <span className='r-text'>SEMESTER-04 TOTAL CREDITS :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT4} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-04 CREDITS * GRADE :</span>
+                    <span className='r-text'>SEMESTER-04 CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={CGT4} readOnly/>
                   </div>
                 </div>
 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-05 TOTAL CREDITS :</span>
+                    <span className='r-text'>SEMESTER-05 TOTAL CREDITS :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT5} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-05 CREDITS * GRADE :</span>
+                    <span className='r-text'>SEMESTER-05 CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={CGT5} readOnly/>
                   </div>
                 </div>
                 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-06 TOTAL CREDITS :</span>
+                    <span className='r-text'>SEMESTER-06 TOTAL CREDITS :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT6} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-06 CREDITS * GRADE :</span>
+                    <span className='r-text'>SEMESTER-06 CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={CGT6} readOnly/>
                   </div>
                 </div>
                 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-07 TOTAL CREDITS :</span>
+                    <span className='r-text'>SEMESTER-07 TOTAL CREDITS :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT7} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-07 CREDITS * GRADE :</span>
+                    <span className='r-text'>SEMESTER-07 CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={CGT7} readOnly/>
                   </div>
                 </div>
                 
                 <div className='d-box'>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-08 TOTAL CREDITS :</span>
+                    <span className='r-text'>SEMESTER-08 TOTAL CREDITS :</span>
                     <input type="text" name="" step="any" className="r-box" value={GT8} readOnly/>
                   </div>
                   <div className='c-boxs'>
-                    <span className='r-text'>SEMSTER-08 CREDITS * GRADE :</span>
+                    <span className='r-text'>SEMESTER-08 CREDITS * GRADE :</span>
                     <input type="text" name="" step="any" className="r-box" value={CGT8} readOnly/>
                   </div>
                 </div>
