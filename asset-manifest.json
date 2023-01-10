@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cgpa-app/static/css/main.7eb492c2.css",
+    "main.css": "/cgpa-app/static/css/main.f6751f27.css",
     "main.js": "/cgpa-app/static/js/main.20bd8568.js",
     "index.html": "/cgpa-app/index.html",
-    "main.7eb492c2.css.map": "/cgpa-app/static/css/main.7eb492c2.css.map",
+    "main.f6751f27.css.map": "/cgpa-app/static/css/main.f6751f27.css.map",
     "main.20bd8568.js.map": "/cgpa-app/static/js/main.20bd8568.js.map"
   },
   "entrypoints": [
-    "static/css/main.7eb492c2.css",
+    "static/css/main.f6751f27.css",
     "static/js/main.20bd8568.js"
   ]
 }
